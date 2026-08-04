@@ -18,7 +18,7 @@ import Amazonka.S3.Encryption.Envelope
 import Amazonka.S3.Encryption.Instructions
 import Amazonka.S3.Encryption.Types
 import qualified Amazonka.S3.Lens as S3
-import Control.Lens ((^.))
+import Control.Lens ((^.), Setter')
 import qualified Control.Lens as Lens
 
 -- FIXME: Material
